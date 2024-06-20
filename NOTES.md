@@ -1,7 +1,7 @@
 01basicreact
 
     -- we created this project using create-react-app.
-        -- command - npx create-react-app folderName.
+    -- command - npx create-react-app folderName.
 
     -- node_module folder
         -- contains all the dependencies required to run react project.
