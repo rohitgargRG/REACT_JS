@@ -52,6 +52,7 @@ NOTE  - package.json is the most important file.
     -- saara kaam ya to src folder ke andar ho rha h , ya to public folder ke andar ho rha hai.
 
     -- spa - single page application.
+    -- react is used to create spa.
 
     -- The <noscript> tag in HTML is used to display the text for those browsers which does not support script tag or the browsers disable the script by the user. This tag is used in both <head> and <body> tag.
 
@@ -74,6 +75,25 @@ NOTE  - package.json is the most important file.
 # 1:05:00
 
  -- it is always necessary to inject javascript into html file , for javascript to make any manipulation into  html page.
+
+ -- package.lock.json is also a json file , but the only difference is that soem stable version of dev dependencies is locked over here.
+
+ *** NOTE ***
+ -- always start function name with a capital letter
+ -- or else it will give error
+ -- inspect and see.
+
+ Best Practice - start both function and file name with a capital letter.
+
+** NAming Convention ** --
+
+In Vite -
+    -- use .jsx extension for all file names.
+
+In create-react-app
+    -- use .jsx extension for files in which some functions are returning some html code (jsx).
+
+    -- use .js for other js files.
 
 
 
