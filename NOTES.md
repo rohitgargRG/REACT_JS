@@ -1,3 +1,46 @@
+NOTE  - package.json is the most important file.
+      - it contains all the details about project.
+      - always read this file to get the information about the project.
+
+****** COMMANDS ******* 
+// see script in package.json file
+ 
+ // to create a project
+ -- npx create-react-app folderName
+
+ // to start a project
+ -- npm run start
+
+ // to build a project
+ // this cmd will create a build folder inside your project
+ // this folder will contain all the HTML,CSS,JS code converted from react 
+ -- npm run build
+
+
+ NOTE**  -> create-react-app is not a good way to create react projects .
+ - since it is more bulky and brings a lot of useless things with it.
+
+ **NOTE - use vite to create your projects.
+
+ // to create a project using vite
+ -- npm create vite@latest
+
+ - see package.json file here
+ - see dependencies key in json file
+ - in vite you will get only react and react-dom dependencies , whereas in create-react-app you were getting a lot of testing libraries,etc as well , which were of no use for us.
+ - using vite to create projects is much useful.
+
+ NOTE - here you will get more devDependencies
+      - devDependencies are only for our use , they do not get pushed into production.
+      - they are just for our work purpose.
+
+- use npm i or npm install to install node_modules folder inside your project.
+
+
+- cd .. -> cmd to go one folder back
+
+
+
 01basicreact
 
     -- we created this project using create-react-app.
