@@ -98,6 +98,30 @@ In create-react-app
 
 ******* LECTURE -4 (custom react) *********
 
+******* LECTURE -5 (hooks) *********
+
+-- React Controls the value updation of an element in UI.
+-- React Controls UI Updation.
+-- babel automatically injects the react .
+
+-- using a hook , will update the value at all places in the UI.
+
+-- Different Types of hooks
+
+1) useState(default_Value) -  
+    
+    -- this hook is use to change the state and reflect it in UI.
+    
+    -- this returns an array containing a counter(we can use any name in place of counter) value(0th index) and a function setCounter(we can use any name for this function).
+
+
+*************************************
+
+
+*********** Lecture 6 *********************
+(Important for interviews)
+
+
 
 
 
