@@ -121,6 +121,42 @@ In create-react-app
 *********** Lecture 6 *********************
 (Important for interviews)
 
+1) createRoot method creates a DOM like structure.(Virtual DOM)
+    -- it then compares this DOM with main DOM and updates only those things which are updated in UI.
+
+2) Page Reloading - 
+    -- In jS complete Dom is removed and a new DOM structure is repainted/recreated every time.
+    -- this is called as page reloading.
+
+Whereas In Virtual DOM, we compare the main DOM with our virtual DOM , and will update only those values in the main DOM , which are being changed.
+Hence we Do not need to reload again and again.
+
+# react fibre , reconciliation , etc. ->
+
+-- Read this article ->
+-- https://github.com/acdlite/react-fiber-architecture
+
+
+
+***************************************************
+
+******************* Lecture 7 *********************
+
+Props ->
+
+    -- Props in react makes a component reusable.
+    -- we can create a component and can use it anywhere.
+    -- In that component , we can write a function returnig some html (eg - code for a card).
+    -- every function in the component has access of props (passed as an argument in the function)
+    -- while using these components  anywhere , we will pass some values for props in the component , we will then use  this passed values in the function to do some changes.
+
+    -- eg - you want to display different names on every card , so pass a username while using that component and use that username in the function.
+
+*****************************************************
+
+******************* Lecture 8 *************
+
+
 
 
 
